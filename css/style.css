@@ -7,12 +7,12 @@ body{
 
 .container{
     background-color: beige;
-    max-width: 85.375rem;
-    width: 85.375rem;
+    max-width: 1336px;
+    width: 1336px;
     padding: 2rem;
 }
 
-nav{
+header{
     display: flex;
     justify-content: space-between;
 }
@@ -23,12 +23,13 @@ nav{
     height: 6.25rem;
     border-radius: 50%;
     margin: 0 2rem 0 0;
+    flex-shrink: 0;
 }
 
 .rectangulo-azul{
     background-color: blue;
     height: 6.25rem;
-    width: 100%;
+    width: 90%;
     border-radius: .625rem;
 }
 
@@ -36,5 +37,39 @@ nav{
     background-color: orange;
     height: 25rem;
     border-radius: 4.375rem;
-    margin: 6rem 0 0 0;
+    margin: 4rem 0 0 0;
+}
+
+.r-blanco{
+    background-color: white;
+    height: 18.75rem;
+    border-radius: 4.375rem;
+    margin: 4rem 0 0 0;
+}
+
+.circulorectangulo{
+    display: flex;
+    align-items: center;
+}
+
+.circulo-verde{
+    background-color: green;
+    border-radius: 50%;
+    width: 10rem;
+    flex-shrink: 0;
+    height: 10rem;
+    margin: 4rem 1rem 0 0;
+}
+
+.rectangulo-verde{
+    background-color: olivedrab;
+    border: 4.375;
+    flex-grow: 1;
+    height: 10rem;
+    border-radius: 2rem;
+    margin: 4rem 1rem 0 0;
+}
+
+.reverso{
+    flex-direction: row-reverse;
 }
