@@ -9,12 +9,12 @@ body{
     background-color: beige;
     max-width: 1336px;
     width: 1336px;
-    padding: 2rem;
 }
 
 header{
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
 }
 
 .circulo-naranja{
@@ -38,16 +38,18 @@ header{
     height: 25rem;
     border-radius: 4.375rem;
     margin: 4rem 0 0 0;
+    margin: 0 2rem 0 2rem;
 }
 
 .r-blanco{
     background-color: white;
     height: 18.75rem;
     border-radius: 4.375rem;
-    margin: 4rem 0 0 0;
+    margin: 4rem 2rem 0 2rem;
 }
 
 .circulorectangulo{
+    margin: 0 2rem 4rem 2rem;
     display: flex;
     align-items: center;
 }
@@ -72,4 +74,12 @@ header{
 
 .reverso{
     flex-direction: row-reverse;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    height: 30rem;
+    padding: 2rem;
 }
