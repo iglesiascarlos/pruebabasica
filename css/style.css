@@ -1,47 +1,66 @@
+/* fondo del body */
 body{
     background-color: #d7d7d7;
 }
-
+/* Container */
 .container{
+    /* fondo de la web */
     background-color: beige;
+    /* Ancho controlado */
     max-width: 1336px;
+    /* Siempre en el centro de las pantallas */
     margin: 0 auto;
+    /* margenes */
     box-sizing: border-box;
 }
 
 header{
     display: flex;
     justify-content: space-between;
+    /* margenes */
     padding: 2.1875rem 3.75rem 0 3.75rem;
 }
 
+/* Circulo representando la zona del logo */
 .circulo-naranja{
+    /* color */
     background-color: orange;
+    /* forma */
     width: 12.5rem;
     height: 12.5rem;
     border-radius: 50%;
+    /* margenes */
     margin: 0 1.25rem 0 0;
     flex-shrink: 0;
 }
 
 .rectangulo-azul{
+    /* color */
     background-color: blue;
+    /* forma */
     height: 12.5rem;
     border-radius: .625rem;
+    /* margenes */
     flex-grow: 1;
 }
 
 .r-naranja{
+    /* color */
     background-color: orange;
+    /* forma */
     height: 37.5rem;
     border-radius: 9.375rem;
+    /* margenes */
     margin: 6.25rem 3.75rem 0 3.75rem;
   
 }
 
 .r-blanco{
+    /* color */
     background-color: white;
+    /* forma */
     height: 25rem;
+    /* margenes */
     margin: 6.25rem 3.75rem 0 3.75rem;
 }
 
@@ -49,24 +68,31 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margenes */
     margin: 0 3.75rem 0 3.75rem;
 }
 
 .circulo-verde{
+    /* color */
     background-color: green;
+    /* forma */
     border-radius: 50%;
     width: 18.75rem;
-    flex-shrink: 0;
     height: 18.75rem;
+    /* margenes */
+    flex-shrink: 0;
     margin: 4rem 1rem 0 0;
 }
 
 .rectangulo-verde{
+    /* color */
     background-color: olivedrab;
+    /* forma */
     border: 4.375;
-    flex-grow: 1;
     height: 300px;
+    /* margenes */
     margin: 4rem 1rem 0 0;
+    flex-grow: 1;
 }
 
 .reverso{
@@ -74,9 +100,12 @@ header{
 }
 
 footer{
+    /* color */
     background-color: black;
+    /* forma */
     height: 700px;
     width: 100%;
+    /* margen */
     margin: 0 auto;
     box-sizing: border-box;
     margin-top: 100px;
