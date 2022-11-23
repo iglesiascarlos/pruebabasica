@@ -1,65 +1,63 @@
 body{
     background-color: #d7d7d7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .container{
     background-color: beige;
     max-width: 1336px;
-    width: 1336px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 2.1875rem 3.75rem 0 3.75rem;
 }
 
 .circulo-naranja{
     background-color: orange;
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 12.5rem;
+    height: 12.5rem;
     border-radius: 50%;
-    margin: 0 2rem 0 0;
+    margin: 0 1.25rem 0 0;
     flex-shrink: 0;
 }
 
 .rectangulo-azul{
     background-color: blue;
-    height: 6.25rem;
-    width: 90%;
+    height: 12.5rem;
     border-radius: .625rem;
+    flex-grow: 1;
 }
 
 .r-naranja{
     background-color: orange;
-    height: 25rem;
-    border-radius: 4.375rem;
-    margin: 4rem 0 0 0;
-    margin: 0 2rem 0 2rem;
+    height: 37.5rem;
+    border-radius: 9.375rem;
+    margin: 6.25rem 3.75rem 0 3.75rem;
+  
 }
 
 .r-blanco{
     background-color: white;
-    height: 18.75rem;
-    border-radius: 4.375rem;
-    margin: 4rem 2rem 0 2rem;
+    height: 25rem;
+    margin: 6.25rem 3.75rem 0 3.75rem;
 }
 
 .circulorectangulo{
-    margin: 0 2rem 4rem 2rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 3.75rem 0 3.75rem;
 }
 
 .circulo-verde{
     background-color: green;
     border-radius: 50%;
-    width: 10rem;
+    width: 18.75rem;
     flex-shrink: 0;
-    height: 10rem;
+    height: 18.75rem;
     margin: 4rem 1rem 0 0;
 }
 
@@ -67,8 +65,7 @@ header{
     background-color: olivedrab;
     border: 4.375;
     flex-grow: 1;
-    height: 10rem;
-    border-radius: 2rem;
+    height: 300px;
     margin: 4rem 1rem 0 0;
 }
 
@@ -78,8 +75,10 @@ header{
 
 footer{
     background-color: black;
-    display: flex;
-    justify-content: start;
-    height: 30rem;
-    padding: 2rem;
+    height: 700px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 2.1875rem 3.75rem 0 3.75rem;
 }
